@@ -1,25 +1,25 @@
 class ImifyCli < Formula
   desc "Command-line interface for the imify platform"
   homepage "https://imify.ai"
-  version "0.4.0"
+  version "0.5.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/imify-ai/imify-cli/releases/download/v0.4.0/imify-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "27c5caa0f5e7370fbbea162d03b2796c03c0af34c4f61009ecf16ac4e1ea0ceb"
+      url "https://github.com/imify-ai/imify-cli/releases/download/v0.5.1/imify-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "f6bb11cf78afac1a5bad0d3abe04d2e0835189ce8cbe1c8ecc6423cab3fe2936"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/imify-ai/imify-cli/releases/download/v0.4.0/imify-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "feef829b1177e474cf71e8da017721c45a422cb073c103a3179563a15128e481"
+      url "https://github.com/imify-ai/imify-cli/releases/download/v0.5.1/imify-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "67a257e81c0452e3731b97e5b4aa879fc19615c044c4cb51d5a30c81780533fb"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/imify-ai/imify-cli/releases/download/v0.4.0/imify-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0822e37d7053e600a3837acc66756abc629199310d7e72da48a45260b805b88e"
+      url "https://github.com/imify-ai/imify-cli/releases/download/v0.5.1/imify-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4e3e50cdcef3114c1136de5852c72045bb0860c125125bc34b89f5890f88f6ac"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/imify-ai/imify-cli/releases/download/v0.4.0/imify-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "277c4374e09151f4e5599ef1783111f1469f687427e258d832228e56c08c22fa"
+      url "https://github.com/imify-ai/imify-cli/releases/download/v0.5.1/imify-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d049d24b6334a88d48f0cee38169bc8088a3314c15c76b90fe5236afb50dd16c"
     end
   end
   license "Apache-2.0"
